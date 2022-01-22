@@ -1,0 +1,71 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+padding: 20px 0;
+margin: 0;
+text-align: center;
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    background: hotpink;
+    max-width: 100px;
+    min-height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(
+    295deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(269deg 100% 21%) 5%,
+    hsl(285deg 100% 21%) 10%,
+    hsl(298deg 100% 21%) 14%,
+    hsl(310deg 100% 25%) 19%,
+    hsl(318deg 100% 29%) 24%,
+    hsl(324deg 100% 32%) 29%,
+    hsl(329deg 100% 36%) 33%,
+    hsl(333deg 100% 39%) 38%,
+    hsl(336deg 100% 42%) 43%,
+    hsl(340deg 99% 45%) 48%,
+    hsl(351deg 86% 55%) 52%,
+    hsl(0deg 93% 61%) 57%,
+    hsl(9deg 100% 61%) 62%,
+    hsl(17deg 100% 59%) 67%,
+    hsl(24deg 100% 57%) 71%,
+    hsl(31deg 100% 54%) 76%,
+    hsl(38deg 100% 50%) 81%,
+    hsl(42deg 100% 50%) 86%,
+    hsl(47deg 100% 50%) 90%,
+    hsl(51deg 100% 50%) 95%,
+    hsl(55deg 100% 50%) 100%
+    );
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+input {
+    margin: 10px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+span{
+    border: 2px solid black;
+    padding: 4px 26px 4px 4px;
+    background: white;
+    border-radius: 10px;
+}
+
+button {
+    margin: 0px;
+    width: 50px;
+    margin-top: 3px;
+    height: 50px;
+    background: white;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
