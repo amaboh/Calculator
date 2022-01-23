@@ -17,27 +17,27 @@ let num2;
 
 // }
 
-const addition= () =>{
+function addition(){
     getSumi()
     const result = num1 + num2
     console.log(result)
-    resultEl.textcontent = `Result: ${result.toFixed(4)}`
+    resultEl.innerHTML = `Result: ${result.toFixed(4)}`
 }
 
-const minus = () =>{
+function minus(){
     getSumi()
     const result = num1 - num2
-    resultEl.textcontent = `Result  ${result.toFixed(4)}`
+    resultEl.innerHTML = `Result  ${result.toFixed(4)}`
 }
 
-const divide = () =>{
+function divide (){
     getSumi()
     const result =  num1 / num2 
-    resultEl.textContent = `Result: ${result.toFixed(4)}`
+    resultEl.innerHTML = `Result: ${result.toFixed(4)}`
 } 
 
-const multiply = () =>{
+function multiply (){
     getSumi()
     const result = num1 * num2
-    resultEl.textcontent = `Result ${result.toFixed(4)}`
+    resultEl.innerHTML = `Result ${result.toFixed(4)}`
 }
