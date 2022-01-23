@@ -12,7 +12,7 @@ align-items: center;
 
 .container{
     background: hotpink;
-    max-width: 100px;
+    max-width: 400px;
     min-height: 200px;
     padding: 10px;
     border-radius: 20px;

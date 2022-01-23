@@ -1,12 +1,12 @@
 
-let sumEL = document.getElementById("sum-el")
+let resultEl = document.getElementById("result-el")
 
-let num1;
-let num2;
+let num1; 
+let num2;  
 
-function getSumi (){
-    num1 = document.getElementById("num1-el").value
-    num2 = document.getElementById("num2-el").value
+ getSumi = () => {
+    num1 = parseFloat(document.getElementById("num1-el").value)
+    num2 = parseFloat(document.getElementById("num2-el").value)
 
 }
 
@@ -17,26 +17,27 @@ function getSumi (){
 
 // }
 
-function addition(){
+const addition= () =>{
     getSumi()
-    const sum = num1 + num2
-    sumEL.textcontent = `Result: ${sum}`
+    const result = num1 + num2
+    console.log(result)
+    resultEl.textcontent = `Result: ${result.toFixed(4)}`
 }
 
 const minus = () =>{
     getSumi()
-    const sum = num1 - num2
-    sumEL.textcontent = `Result  ${sum}`
+    const result = num1 - num2
+    resultEl.textcontent = `Result  ${result.toFixed(4)}`
 }
 
 const divide = () =>{
     getSumi()
-    const sum =  num1 / num2 
-    sumEL.textContent = `Result: ${sum}`
+    const result =  num1 / num2 
+    resultEl.textContent = `Result: ${result.toFixed(4)}`
 } 
 
 const multiply = () =>{
     getSumi()
-    const sum = num1 * num2
-    sumEL.textcontent = `Result ${sum}`
+    const result = num1 * num2
+    resultEl.textcontent = `Result ${result.toFixed(4)}`
 }
